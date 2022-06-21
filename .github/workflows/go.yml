@@ -1,8 +1,7 @@
 name: test
-
 on:
   pull_request:
-    types: [ created, edited ]
+    types: [ opened, edited ]
   release:
     types: [ created ]
     
